@@ -236,7 +236,18 @@ html,body
     font-size: clamp(0.5rem, 4vw, 1.5rem);
     margin-bottom: 3rem;
 }
-
+@media screen and (max-width: 900px){
+    .info__container{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        scroll-snap-align: start;
+        padding:1rem;
+        text-align: center;
+    }
+}
 /* Services Section */
 .services {
   padding: 80px 20px;
