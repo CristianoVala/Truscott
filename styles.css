@@ -240,7 +240,7 @@ html,body
 /* Services Section */
 .services {
   padding: 80px 20px;
-  background-color: #f8f8f8;
+  background-color: white;
   text-align: center;
 }
 
@@ -261,7 +261,7 @@ html,body
 
 /* Service Card */
 .service-card {
-  background: #ffffff;
+  background: #f8f8f8;
   padding: 40px 25px;
   border-radius: 12px;
   transition: all 0.4s ease;
@@ -271,7 +271,7 @@ html,body
 
 /* Icon Styling */
 .service-card .icon {
-  font-size: 40px;
+  font-size: 80px;
   color: #e10600; /* Bright Red */
   margin-bottom: 20px;
   transition: transform 0.4s ease;
